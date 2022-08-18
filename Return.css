@@ -84,7 +84,9 @@ display: block;
 .text_on_main_image{
   position: absolute;
   color: #ffffff;
-  top: 48%;
+/*   top: 48%; */
+  
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
