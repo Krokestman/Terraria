@@ -233,7 +233,7 @@ display: block;
 footer{
     margin-top: 4%;
     width: 100%;
-    max-height:10%;  
+    background-color: #205148;
 }
 .inner_foo{
   padding: 1% 2% 1% 2%;
