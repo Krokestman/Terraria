@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
 }
+
 body{
   background-color: #ffffff;
   /* #494E53 */
@@ -39,12 +40,12 @@ li, a{
   list-style: none;
   position: relative;
 }
+
 .heade_buton{
   display: inline-block;
   padding: 0px 5px;
   margin-right: 10px;
 }
-
 
 .nav_links li a{
 transform: all 0.3s ease 0s;
@@ -57,6 +58,8 @@ transform: all 0.3s ease 0s;
 .Warior{
     color: #EB992B;
 }
+
+
 /* Випадаючий список */
 .menu_drop{
   display: none;
@@ -64,23 +67,30 @@ transform: all 0.3s ease 0s;
   z-index: 20;
   list-style: none;
 }
+
 .list:hover .menu_drop{
 display: block;
 }
+
+
 /* Тут починається контент */
 .content{
   width: 100%;
 }
+
 .inner_content{
   /* background-color: #494E53; */
 }
+
 .main_image_box{
   position: relative;
   margin: 0px 0px 0px 0px;
 }
+
 .main_image {
   width: 100%;
 }
+
 .text_on_main_image{
   position: absolute;
   color: #ffffff;
@@ -88,20 +98,24 @@ display: block;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .main_title{
   font-size: 5vw;
 }
+
 .add_title{
   font-size: 1.6vw;
   vertical-align: center;
   margin-left: 12%;
 }
+
 .centrButton{
   position: absolute;
   top: 80%;
   left: 47%;
   transform: translate(-50%, -50%);
 }
+
 .button{
   border: 1px solid #F7992B;
   text-decoration: none;
@@ -115,12 +129,14 @@ display: block;
   line-height: 200%;
   transition: .5s;
 }
+
 .centrButton :hover{
   color: #F7992B;
   background-color: rgba(117, 190, 218, 0.0);
 }
-/* тут частина з текстом */
 
+
+/* тут частина з текстом */
 .row:after {
   visibility: hidden;
   display: block;
@@ -129,6 +145,7 @@ display: block;
   clear: both;
   height: 0;
 }
+
 .row { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
@@ -138,43 +155,52 @@ display: block;
 .text_part{
   width: 100%;
 }
+
 .inner_text_part{
   padding: 0px 10% 0px 10%;
   color: #000000;
 }
+
 .insert{
   /* background-color: blue; */
 }
+
 .innert-insert{
   padding-top: 30px;
   margin-bottom: 10px;
   font-size: 1.3vw;
   /* font-family: "Oswald", sans-serif; */
 }
+
 .big_text{
   width: 35%;
   float:left;
 }
+
 .innert-big_text{
   font-size: 3.7vw;
   font-family: "Oswald", sans-serif;
 }
+
 .up_text{
   margin-left:7%;
   float:left;
   width: 58%;
   margin-bottom: 10px;
 }
+
 .innert-up_text{
     font-family: "Montserrat", sans-serif;
     font-size: 1.6vw;
     color: #000000;
 }
+
 .doun_text{
   margin-left:7%;
   float:left;
   width: 58%;
 }
+
 .innert-doun_text{
     font-family: "Montserrat", sans-serif;
     font-size: 1.6vw;
@@ -186,32 +212,40 @@ display: block;
 .all_line{
   width: 100%;
 }
+
 .inner_all_line{
   /* background-color: red; */
   padding: 0px 5% 0px 5%;
   margin-top: 4%;
   color: #000000;
 }
+
 .line{
   position: relative;
   display: inline-block;
   width: 25%;
 }
+
 .first_image1{
   width: 100%;
 }
+
 .middle_image2{
   width: 100%;
 }
+
 .last_image3{
   width: 100%;
 }
+
 .middle_image{
   margin-left: 10.85%;
 }
+
 .last_image{
   margin-left: 10.85%;
 }
+
 .armor{
   position: absolute;
   top: 80%;
@@ -219,6 +253,7 @@ display: block;
   transform: translate(-50%, -50%);
   transition: 0.5s;
 }
+
 .all_imege{
     font-size: 2vw;
     text-decoration: none;
@@ -226,20 +261,22 @@ display: block;
     font-family: "Oswald", sans-serif;
     transition: 0.4s;
 }
+
 .armor :hover{
   color: #F7992B;
   background-color: rgba(117, 190, 218, 0.0);
 }
+
 footer{
     margin-top: 4%;
     width: 100%;
-    background-color: #205148;
+    background-color: #3B3D42;
 }
+
 .inner_foo{
   padding: 1% 2% 1% 2%;
   text-align: left;
-  background-color: rgba(117, 190, 218, 0.0);
-  border-top: 2px solid #DEC455;
+  border-top: 2px solid #F7992B;
   color: #C7D4ED;
   font-size: 0.8vw;
 }
